@@ -4,47 +4,47 @@
 
 @layer base {
   :root {
-    --background: 220 15% 8%;
-    --foreground: 40 20% 92%;
+    --background: 222 47% 6%;
+    --foreground: 210 30% 92%;
 
-    --card: 220 15% 11%;
-    --card-foreground: 40 20% 92%;
+    --card: 222 40% 9%;
+    --card-foreground: 210 30% 92%;
 
-    --popover: 220 15% 11%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 222 40% 9%;
+    --popover-foreground: 210 30% 92%;
 
-    --primary: 42 85% 52%;
-    --primary-foreground: 220 15% 8%;
+    --primary: 210 100% 56%;
+    --primary-foreground: 222 47% 6%;
 
-    --secondary: 220 15% 16%;
-    --secondary-foreground: 40 20% 92%;
+    --secondary: 222 35% 14%;
+    --secondary-foreground: 210 30% 92%;
 
-    --muted: 220 15% 14%;
-    --muted-foreground: 220 10% 55%;
+    --muted: 222 35% 12%;
+    --muted-foreground: 215 20% 50%;
 
-    --accent: 42 85% 52%;
-    --accent-foreground: 220 15% 8%;
+    --accent: 210 100% 56%;
+    --accent-foreground: 222 47% 6%;
 
     --destructive: 0 62% 50%;
-    --destructive-foreground: 40 20% 92%;
+    --destructive-foreground: 210 30% 92%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 16%;
-    --ring: 42 85% 52%;
+    --border: 222 30% 18%;
+    --input: 222 35% 14%;
+    --ring: 210 100% 56%;
 
     --radius: 0px;
 
-    --sidebar-background: 220 15% 8%;
-    --sidebar-foreground: 40 20% 92%;
-    --sidebar-primary: 42 85% 52%;
-    --sidebar-primary-foreground: 220 15% 8%;
-    --sidebar-accent: 220 15% 14%;
-    --sidebar-accent-foreground: 40 20% 92%;
-    --sidebar-border: 220 15% 20%;
-    --sidebar-ring: 42 85% 52%;
+    --sidebar-background: 222 47% 6%;
+    --sidebar-foreground: 210 30% 92%;
+    --sidebar-primary: 210 100% 56%;
+    --sidebar-primary-foreground: 222 47% 6%;
+    --sidebar-accent: 222 35% 12%;
+    --sidebar-accent-foreground: 210 30% 92%;
+    --sidebar-border: 222 30% 18%;
+    --sidebar-ring: 210 100% 56%;
 
-    --gold: #c9a84c;
-    --gold-light: #e2c06a;
+    --blue: #1e88e5;
+    --blue-light: #42a5f5;
   }
 }
 
@@ -74,25 +74,8 @@
 }
 
 @layer utilities {
-  .text-gold {
-    color: var(--gold);
-  }
-
-  .bg-gold {
-    background-color: var(--gold);
-  }
-
-  .border-gold {
-    border-color: var(--gold);
-  }
-
-  .gold-accent::before {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: var(--gold);
-    margin-bottom: 1.25rem;
+  .text-blue-accent {
+    color: var(--blue);
   }
 
   .animate-fade-in {
